@@ -1,5 +1,12 @@
 import React from "react";
+import Header from "../components/Header";
+import Slider from "../components/Slider";
 
 export default function Home() {
-  return <div>Baret Page Will Come Soon.</div>;
+  return (
+    <>
+      <Header />
+      <Slider />
+    </>
+  );
 }
